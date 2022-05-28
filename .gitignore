@@ -1,5 +1,12 @@
-*
-!/.gitignore
+/ships/*
+/landships/*
+/buildings/*
+/combats/
+/saves/
+/recordings/
+/recordingsArchive/
+/prefs.json
+/log.txt
 !/ships/ATA*
 !/ships/CCC*
 !/ships/FW*
