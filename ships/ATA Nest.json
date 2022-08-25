@@ -1,0 +1,2233 @@
+{
+    "aircraftMode": "NORMAL",
+    "assignJobsMs": 300,
+    "boardExitTargetCache": -1,
+    "boarderCanDoPathingIndex": 0,
+    "boarders": [],
+    "braking": 0,
+    "canDoPathingIndex": 0,
+    "captured": false,
+    "carrying": [],
+    "chunkSubIDCounter": 1,
+    "combatStats": [],
+    "commandPoints": 32320,
+    "constructionBonuses": [
+        "ACID",
+        "ADVANCED_SUSPENDIUM_WEAPONS",
+        "AERODYNAMICS",
+        "AIR_DRAGOONS",
+        "AUTOMATED_SUPPLY_SYSTEMS",
+        "BIPLANES",
+        "BOMBERS",
+        "BOMBS",
+        "BUREAUCRACY_LESS_UNREST",
+        "BUZZSAW",
+        "CANNONS",
+        "CARTOGRAPHY",
+        "CLOCKWORK_HUSSARS",
+        "COMMAND_CENTRES",
+        "COMPUTERS",
+        "DECK_GUNS",
+        "DRAGONHIDE",
+        "EARLY_DETECTION",
+        "EXOSKELETONS",
+        "FACTORY",
+        "FASTER_BUILDING_CONSTRUCTION",
+        "FASTER_UPGRADE_CONSTRUCTION",
+        "FIELD_STATION",
+        "FINAL_RITUAL",
+        "FIRE_EXTINGUISHERS",
+        "FLAK_CANNONS",
+        "FLAMETHROWERS",
+        "FLEET_ACADEMY_UNLOCK",
+        "FLIGHT_CENTRES",
+        "FLIGHT_HANGARS",
+        "GARRISON",
+        "GATLING_GUNS",
+        "GATLING_SKYBOATS",
+        "GERM_THEORY",
+        "GRAPPLING_HOOKS",
+        "GRENADIER_CONDITIONING",
+        "GUIDANCE_SYSTEMS",
+        "HARPOONS",
+        "HEAVY_CANNON",
+        "HEAVY_STEEL_ARMOUR",
+        "HEAVY_TURRETS",
+        "HEAVY_WOODEN_ARMOUR",
+        "HIGH_PRESSURE_SUSPENDIUM",
+        "HUSSARS",
+        "IMPERIAL_CANNON",
+        "IMPROVED_LOGISTICS",
+        "INCREASED_CANNON_DAMAGE",
+        "INCREASED_SAW_DAMAGE",
+        "INDUSTRIAL_AUTOMATION",
+        "KRAKEN_AWAKENING",
+        "LARGE_SUSPENDIUM_CHAMBERS",
+        "LEGS",
+        "MAD_SCIENCE_LAB",
+        "MARINES",
+        "MASSIVE_STONE_WALLS",
+        "MECH_SPIDERS",
+        "MECH_TENTACLES",
+        "MEDIUM_STEEL_ARMOUR",
+        "MERCANTILISM",
+        "METALLURGY_SAW_BONUS",
+        "MOON_FRAGMENTS",
+        "OBSERVATION_DOMES",
+        "PLACES_OF_POWER",
+        "POLICE",
+        "PROPELLERS",
+        "QUARTERMASTERS",
+        "RIFLES",
+        "ROCKETS",
+        "ROCKET_PLANES",
+        "SECRETS_OF_DEATH",
+        "SECURITY_MINISTRY_UNLOCK",
+        "SHELL_ARMOUR",
+        "SHIPYARD",
+        "SPIDER_LEGS",
+        "SPONSONS",
+        "SPY_AGENCY_UNLOCK",
+        "SUSPENDIUM_CANNON",
+        "SUSPENDIUM_CHAMBERS",
+        "TELESCOPES",
+        "TORPEDOES",
+        "TORPEDO_PLANES",
+        "TRACKS",
+        "TRAINED_MUSKETEERS",
+        "TRIPLANES",
+        "TURRETS",
+        "UNIVERSITY_UNLOCK",
+        "VACCINATION",
+        "WORM_EYE_CULT"
+    ],
+    "crew": [
+        {
+            "ammo": 0,
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 6,
+            "jobModule": 7,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "rearmAccumulator": 0,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "spawnedAtTileIndex": 19,
+            "tile": 37,
+            "timeSinceLaunch": 0,
+            "type": "sailor",
+            "weaponReload": 0
+        },
+        {
+            "ammo": 0,
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 6,
+            "jobModule": 3,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "rearmAccumulator": 0,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "spawnedAtTileIndex": 25,
+            "tile": 19,
+            "timeSinceLaunch": 0,
+            "type": "sailor",
+            "weaponReload": 0
+        },
+        {
+            "ammo": 0,
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 6,
+            "jobModule": 4,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "rearmAccumulator": 0,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "spawnedAtTileIndex": 31,
+            "tile": 25,
+            "timeSinceLaunch": 0,
+            "type": "sailor",
+            "weaponReload": 0
+        },
+        {
+            "ammo": 0,
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 6,
+            "jobModule": 5,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "rearmAccumulator": 0,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "spawnedAtTileIndex": 37,
+            "tile": 31,
+            "timeSinceLaunch": 0,
+            "type": "sailor",
+            "weaponReload": 0
+        },
+        {
+            "ammo": 0,
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 2,
+            "jobModule": 17,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "rearmAccumulator": 0,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "spawnedAtTileIndex": 81,
+            "tile": 81,
+            "timeSinceLaunch": 0,
+            "type": "sailor",
+            "weaponReload": 0
+        },
+        {
+            "ammo": 0,
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 7,
+            "jobModule": 7,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "rearmAccumulator": 0,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "spawnedAtTileIndex": 38,
+            "tile": 38,
+            "timeSinceLaunch": 0,
+            "type": "sailor",
+            "weaponReload": 0
+        },
+        {
+            "ammo": 0,
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 8,
+            "jobModule": 7,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "rearmAccumulator": 0,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "spawnedAtTileIndex": 39,
+            "tile": 39,
+            "timeSinceLaunch": 0,
+            "type": "sailor",
+            "weaponReload": 0
+        },
+        {
+            "ammo": 0,
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 4,
+            "jobModule": 0,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "rearmAccumulator": 0,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "spawnedAtTileIndex": 2,
+            "tile": 2,
+            "timeSinceLaunch": 0,
+            "type": "sailor",
+            "weaponReload": 0
+        },
+        {
+            "ammo": 0,
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 6,
+            "jobModule": 1,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "rearmAccumulator": 0,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "spawnedAtTileIndex": 7,
+            "tile": 7,
+            "timeSinceLaunch": 0,
+            "type": "sailor",
+            "weaponReload": 0
+        },
+        {
+            "ammo": 0,
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 6,
+            "jobModule": 2,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "rearmAccumulator": 0,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "spawnedAtTileIndex": 13,
+            "tile": 13,
+            "timeSinceLaunch": 0,
+            "type": "sailor",
+            "weaponReload": 0
+        },
+        {
+            "ammo": 0,
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 6,
+            "jobModule": 6,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "rearmAccumulator": 0,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "spawnedAtTileIndex": 34,
+            "tile": 34,
+            "timeSinceLaunch": 0,
+            "type": "sailor",
+            "weaponReload": 0
+        },
+        {
+            "ammo": 0,
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 5,
+            "jobModule": 0,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "rearmAccumulator": 0,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "spawnedAtTileIndex": 3,
+            "tile": 3,
+            "timeSinceLaunch": 0,
+            "type": "sailor",
+            "weaponReload": 0
+        },
+        {
+            "ammo": 0,
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 7,
+            "jobModule": 1,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "rearmAccumulator": 0,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "spawnedAtTileIndex": 8,
+            "tile": 8,
+            "timeSinceLaunch": 0,
+            "type": "sailor",
+            "weaponReload": 0
+        },
+        {
+            "ammo": 0,
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 7,
+            "jobModule": 2,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "rearmAccumulator": 0,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "spawnedAtTileIndex": 14,
+            "tile": 14,
+            "timeSinceLaunch": 0,
+            "type": "sailor",
+            "weaponReload": 0
+        },
+        {
+            "ammo": 0,
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 7,
+            "jobModule": 6,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "rearmAccumulator": 0,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "spawnedAtTileIndex": 35,
+            "tile": 35,
+            "timeSinceLaunch": 0,
+            "type": "sailor",
+            "weaponReload": 0
+        },
+        {
+            "ammo": 0,
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 8,
+            "jobModule": 1,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "rearmAccumulator": 0,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "spawnedAtTileIndex": 9,
+            "tile": 9,
+            "timeSinceLaunch": 0,
+            "type": "sailor",
+            "weaponReload": 0
+        },
+        {
+            "ammo": 0,
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 8,
+            "jobModule": 2,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "rearmAccumulator": 0,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "spawnedAtTileIndex": 15,
+            "tile": 15,
+            "timeSinceLaunch": 0,
+            "type": "sailor",
+            "weaponReload": 0
+        },
+        {
+            "ammo": 0,
+            "giveResourceWait": 0,
+            "hp": 5,
+            "jobIndex": 8,
+            "jobModule": 6,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "rearmAccumulator": 0,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "spawnedAtTileIndex": 36,
+            "tile": 36,
+            "timeSinceLaunch": 0,
+            "type": "sailor",
+            "weaponReload": 0
+        },
+        {
+            "ammo": 60,
+            "giveResourceWait": 0,
+            "hp": 30,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "rearmAccumulator": 0,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "spawnedAtTileIndex": 49,
+            "tile": 49,
+            "timeSinceLaunch": 0,
+            "type": "clockwork_hussar",
+            "weaponReload": 0
+        },
+        {
+            "ammo": 60,
+            "giveResourceWait": 0,
+            "hp": 30,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "rearmAccumulator": 0,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "spawnedAtTileIndex": 55,
+            "tile": 55,
+            "timeSinceLaunch": 0,
+            "type": "clockwork_hussar",
+            "weaponReload": 0
+        },
+        {
+            "ammo": 60,
+            "giveResourceWait": 0,
+            "hp": 30,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "rearmAccumulator": 0,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "spawnedAtTileIndex": 61,
+            "tile": 61,
+            "timeSinceLaunch": 0,
+            "type": "clockwork_hussar",
+            "weaponReload": 0
+        },
+        {
+            "ammo": 60,
+            "giveResourceWait": 0,
+            "hp": 30,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "rearmAccumulator": 0,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "spawnedAtTileIndex": 67,
+            "tile": 67,
+            "timeSinceLaunch": 0,
+            "type": "clockwork_hussar",
+            "weaponReload": 0
+        },
+        {
+            "ammo": 60,
+            "giveResourceWait": 0,
+            "hp": 30,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "rearmAccumulator": 0,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "spawnedAtTileIndex": 73,
+            "tile": 73,
+            "timeSinceLaunch": 0,
+            "type": "clockwork_hussar",
+            "weaponReload": 0
+        },
+        {
+            "ammo": 60,
+            "giveResourceWait": 0,
+            "hp": 30,
+            "msSinceMoved": 0,
+            "msUntilRecalcJumpPoint": 0,
+            "msUntilRecalcWalkPoint": 0,
+            "mvXOffset": 0,
+            "occupied": false,
+            "rearmAccumulator": 0,
+            "repairMs": 0,
+            "shootAccumulator": 0,
+            "spawnedAtTileIndex": 79,
+            "tile": 79,
+            "timeSinceLaunch": 0,
+            "type": "clockwork_hussar",
+            "weaponReload": 0
+        }
+    ],
+    "currentBonuses": [
+        "ACID",
+        "ADVANCED_SUSPENDIUM_WEAPONS",
+        "AERODYNAMICS",
+        "AIR_DRAGOONS",
+        "AUTOMATED_SUPPLY_SYSTEMS",
+        "BIPLANES",
+        "BOMBERS",
+        "BOMBS",
+        "BUREAUCRACY_LESS_UNREST",
+        "BUZZSAW",
+        "CANNONS",
+        "CARTOGRAPHY",
+        "CLOCKWORK_HUSSARS",
+        "COMMAND_CENTRES",
+        "COMPUTERS",
+        "DECK_GUNS",
+        "DRAGONHIDE",
+        "EARLY_DETECTION",
+        "EXOSKELETONS",
+        "FACTORY",
+        "FASTER_BUILDING_CONSTRUCTION",
+        "FASTER_UPGRADE_CONSTRUCTION",
+        "FIELD_STATION",
+        "FINAL_RITUAL",
+        "FIRE_EXTINGUISHERS",
+        "FLAK_CANNONS",
+        "FLAMETHROWERS",
+        "FLEET_ACADEMY_UNLOCK",
+        "FLIGHT_CENTRES",
+        "FLIGHT_HANGARS",
+        "GARRISON",
+        "GATLING_GUNS",
+        "GATLING_SKYBOATS",
+        "GERM_THEORY",
+        "GRAPPLING_HOOKS",
+        "GRENADIER_CONDITIONING",
+        "GUIDANCE_SYSTEMS",
+        "HARPOONS",
+        "HEAVY_CANNON",
+        "HEAVY_STEEL_ARMOUR",
+        "HEAVY_TURRETS",
+        "HEAVY_WOODEN_ARMOUR",
+        "HIGH_PRESSURE_SUSPENDIUM",
+        "HUSSARS",
+        "IMPERIAL_CANNON",
+        "IMPROVED_LOGISTICS",
+        "INCREASED_CANNON_DAMAGE",
+        "INCREASED_SAW_DAMAGE",
+        "INDUSTRIAL_AUTOMATION",
+        "KRAKEN_AWAKENING",
+        "LARGE_SUSPENDIUM_CHAMBERS",
+        "LEGS",
+        "MAD_SCIENCE_LAB",
+        "MARINES",
+        "MASSIVE_STONE_WALLS",
+        "MECH_SPIDERS",
+        "MECH_TENTACLES",
+        "MEDIUM_STEEL_ARMOUR",
+        "MERCANTILISM",
+        "METALLURGY_SAW_BONUS",
+        "MOON_FRAGMENTS",
+        "OBSERVATION_DOMES",
+        "PLACES_OF_POWER",
+        "POLICE",
+        "PROPELLERS",
+        "QUARTERMASTERS",
+        "RIFLES",
+        "ROCKETS",
+        "ROCKET_PLANES",
+        "SECRETS_OF_DEATH",
+        "SECURITY_MINISTRY_UNLOCK",
+        "SHELL_ARMOUR",
+        "SHIPYARD",
+        "SPIDER_LEGS",
+        "SPONSONS",
+        "SPY_AGENCY_UNLOCK",
+        "SUSPENDIUM_CANNON",
+        "SUSPENDIUM_CHAMBERS",
+        "TELESCOPES",
+        "TORPEDOES",
+        "TORPEDO_PLANES",
+        "TRACKS",
+        "TRAINED_MUSKETEERS",
+        "TRIPLANES",
+        "TURRETS",
+        "UNIVERSITY_UNLOCK",
+        "VACCINATION",
+        "WORM_EYE_CULT"
+    ],
+    "decals": [
+        {
+            "enabled": true,
+            "layer": 1,
+            "type": "GREEBLE_14",
+            "x": 14,
+            "y": 0
+        },
+        {
+            "enabled": true,
+            "layer": 1,
+            "type": "GREEBLE_13",
+            "x": 17,
+            "y": 2
+        },
+        {
+            "enabled": true,
+            "layer": 1,
+            "type": "SMALL_FIN_PAIR",
+            "x": 0,
+            "y": 2
+        },
+        {
+            "enabled": true,
+            "layer": 1,
+            "type": "GREEBLE_7",
+            "x": 2,
+            "y": 2
+        },
+        {
+            "enabled": true,
+            "layer": 1,
+            "type": "GREEBLE_7",
+            "x": 5,
+            "y": 2
+        },
+        {
+            "enabled": true,
+            "layer": 1,
+            "type": "GREEBLE_7",
+            "x": 8,
+            "y": 2
+        },
+        {
+            "enabled": true,
+            "layer": 1,
+            "type": "GREEBLE_7",
+            "x": 11,
+            "y": 2
+        },
+        {
+            "enabled": true,
+            "layer": 1,
+            "type": "GREEBLE_7",
+            "x": 14,
+            "y": 2
+        },
+        {
+            "enabled": true,
+            "layer": 1,
+            "type": "GREEBLE_15V",
+            "x": 16,
+            "y": 3
+        },
+        {
+            "enabled": true,
+            "layer": 1,
+            "type": "GREEBLE_20",
+            "x": 2,
+            "y": 3
+        },
+        {
+            "enabled": true,
+            "layer": 1,
+            "type": "GREEBLE_9",
+            "x": 7,
+            "y": 3
+        },
+        {
+            "enabled": true,
+            "layer": 1,
+            "type": "GREEBLE_44",
+            "x": 10,
+            "y": 3
+        },
+        {
+            "enabled": true,
+            "layer": 1,
+            "type": "GREEBLE_21",
+            "x": 4,
+            "y": 4
+        },
+        {
+            "enabled": true,
+            "layer": 1,
+            "type": "GREEBLE_21",
+            "x": 7,
+            "y": 4
+        },
+        {
+            "enabled": true,
+            "layer": 1,
+            "type": "GREEBLE_21",
+            "x": 10,
+            "y": 4
+        }
+    ],
+    "enginesRunning": false,
+    "fireMode": "NORMAL",
+    "flipMs": 0,
+    "flipTo": false,
+    "flipped": false,
+    "focusOnFirefighting": false,
+    "focusOnMoving": false,
+    "focusOnRepair": false,
+    "focusOnShooting": true,
+    "grounding": false,
+    "h": 5,
+    "hasBraked": 0,
+    "isBonusConstruction": false,
+    "modules": [
+        {
+            "WATER": 50,
+            "ammoForClipList": [],
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 165,
+            "lowestHP": 165,
+            "msSinceFired": 100000,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "FIRE_POINT",
+            "x": 4,
+            "y": 2
+        },
+        {
+            "COAL": 50,
+            "ammoForClipList": [],
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 264,
+            "lowestHP": 264,
+            "msSinceFired": 100000,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "COAL_STORE",
+            "x": 1,
+            "y": 2
+        },
+        {
+            "COAL": 50,
+            "ammoForClipList": [],
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 264,
+            "lowestHP": 264,
+            "msSinceFired": 100000,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "COAL_STORE",
+            "x": 9,
+            "y": 2
+        },
+        {
+            "ammoForClipList": [],
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 221,
+            "lowestHP": 221,
+            "msSinceFired": 100000,
+            "msUntilCoal": 20000,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "SUSPENDIUM_CHAMBER",
+            "x": 6,
+            "y": 2
+        },
+        {
+            "ammoForClipList": [],
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 221,
+            "lowestHP": 221,
+            "msSinceFired": 100000,
+            "msUntilCoal": 20000,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "SUSPENDIUM_CHAMBER",
+            "x": 12,
+            "y": 2
+        },
+        {
+            "ammoForClipList": [],
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 221,
+            "lowestHP": 221,
+            "msSinceFired": 100000,
+            "msUntilCoal": 20000,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "SUSPENDIUM_CHAMBER",
+            "x": 15,
+            "y": 2
+        },
+        {
+            "REPAIR": 50,
+            "ammoForClipList": [],
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 176,
+            "lowestHP": 176,
+            "msSinceFired": 100000,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "REPAIR_BAY",
+            "x": 4,
+            "y": 4
+        },
+        {
+            "ammoForClipList": [],
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 221,
+            "lowestHP": 221,
+            "msSinceFired": 100000,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "BRIDGE",
+            "x": 7,
+            "y": 4
+        },
+        {
+            "ammoForClipList": [],
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 44,
+            "lowestHP": 44,
+            "msSinceFired": 100000,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "BERTH",
+            "x": 3,
+            "y": 4
+        },
+        {
+            "ammoForClipList": [],
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 111,
+            "lowestHP": 111,
+            "msSinceFired": 100000,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "QUARTERS",
+            "x": 10,
+            "y": 4
+        },
+        {
+            "ammoForClipList": [],
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 44,
+            "lowestHP": 44,
+            "msSinceFired": 100000,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "BERTH",
+            "x": 13,
+            "y": 4
+        },
+        {
+            "ammoForClipList": [],
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 330,
+            "lowestHP": 330,
+            "msSinceFired": 100000,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "CLOCKWORK_HUSSAR_BAY",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "ammoForClipList": [],
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 330,
+            "lowestHP": 330,
+            "msSinceFired": 100000,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "CLOCKWORK_HUSSAR_BAY",
+            "x": 3,
+            "y": 0
+        },
+        {
+            "ammoForClipList": [],
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 330,
+            "lowestHP": 330,
+            "msSinceFired": 100000,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "CLOCKWORK_HUSSAR_BAY",
+            "x": 6,
+            "y": 0
+        },
+        {
+            "ammoForClipList": [],
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 330,
+            "lowestHP": 330,
+            "msSinceFired": 100000,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "CLOCKWORK_HUSSAR_BAY",
+            "x": 9,
+            "y": 0
+        },
+        {
+            "ammoForClipList": [],
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 330,
+            "lowestHP": 330,
+            "msSinceFired": 100000,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "CLOCKWORK_HUSSAR_BAY",
+            "x": 12,
+            "y": 0
+        },
+        {
+            "ammoForClipList": [],
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 330,
+            "lowestHP": 330,
+            "msSinceFired": 100000,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "CLOCKWORK_HUSSAR_BAY",
+            "x": 15,
+            "y": 0
+        },
+        {
+            "ammoForClipList": [],
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "fire": 0,
+            "fired": false,
+            "hp": 44,
+            "lowestHP": 44,
+            "msSinceFired": 100000,
+            "msUntilCoal": 100000,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "SMALL_PROPELLER",
+            "x": 0,
+            "y": 2
+        },
+        {
+            "ammoForClipList": [],
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "externalPaint": "PRUSSIAN_BLUE",
+            "fire": 0,
+            "fired": false,
+            "hp": 66,
+            "lowestHP": 66,
+            "msSinceFired": 100000,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "HATCH",
+            "x": 2,
+            "y": 4
+        },
+        {
+            "ammoForClipList": [],
+            "ammoLeft": 0,
+            "burntOut": false,
+            "clipReloadCooldown": 0,
+            "destructionTime": 0,
+            "explodeFuze": 0,
+            "externalPaint": "PRUSSIAN_BLUE",
+            "fire": 0,
+            "fired": false,
+            "hp": 66,
+            "lowestHP": 66,
+            "msSinceFired": 100000,
+            "msUntilCoal": 0,
+            "reTargetAccumulator": 0,
+            "retryFindingTargetCooldown": 0,
+            "shootAccumulator": 0,
+            "type": "HATCH",
+            "x": 14,
+            "y": 4
+        }
+    ],
+    "moveMode": "DEFAULT",
+    "moveToX": 0,
+    "moveToY": 0,
+    "movingLeft": false,
+    "msSinceLastXMove": 0,
+    "msSinceOnGround": 10000,
+    "name": "ATA Nest",
+    "networkID": "[no network ID]",
+    "notUnderCommandMs": 0,
+    "originalAllQuartered": 24,
+    "originalAmmoCapacity": 0,
+    "originalCoalCapacity": 100,
+    "originalRepairCapacity": 50,
+    "originalWaterCapacity": 50,
+    "outOfCombatMs": 0,
+    "popOutCooldown": 0,
+    "ramming": false,
+    "releaseOneUseLift": false,
+    "releaseOneUsePropulsion": false,
+    "releaseOneUseWeapons": false,
+    "sitting": false,
+    "suspendiumRunning": false,
+    "switchedReserve": false,
+    "tiles": [
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "111100111",
+            "module": 0,
+            "x": 4,
+            "y": 2
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "111000111",
+            "module": 0,
+            "x": 5,
+            "y": 2
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "100111111",
+            "module": 0,
+            "x": 4,
+            "y": 3
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": true
+            },
+            "hAdj": "000111111",
+            "module": 0,
+            "x": 5,
+            "y": 3
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "111111011",
+            "module": 1,
+            "x": 1,
+            "y": 2
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "111111111",
+            "module": 1,
+            "x": 2,
+            "y": 2
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "111110111",
+            "module": 1,
+            "x": 3,
+            "y": 2
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "111011001",
+            "module": 1,
+            "x": 1,
+            "y": 3
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "111111011",
+            "module": 1,
+            "x": 2,
+            "y": 3
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "110111111",
+            "module": 1,
+            "x": 3,
+            "y": 3
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "111011111",
+            "module": 2,
+            "x": 9,
+            "y": 2
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "111111111",
+            "module": 2,
+            "x": 10,
+            "y": 2
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "111110111",
+            "module": 2,
+            "x": 11,
+            "y": 2
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "011111111",
+            "module": 2,
+            "x": 9,
+            "y": 3
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "111111111",
+            "module": 2,
+            "x": 10,
+            "y": 3
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "110111111",
+            "module": 2,
+            "x": 11,
+            "y": 3
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "111000111",
+            "module": 3,
+            "x": 6,
+            "y": 2
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "111000111",
+            "module": 3,
+            "x": 7,
+            "y": 2
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "111001111",
+            "module": 3,
+            "x": 8,
+            "y": 2
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000111111",
+            "module": 3,
+            "x": 6,
+            "y": 3
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000111111",
+            "module": 3,
+            "x": 7,
+            "y": 3
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "001111111",
+            "module": 3,
+            "x": 8,
+            "y": 3
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "111100111",
+            "module": 4,
+            "x": 12,
+            "y": 2
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "111000111",
+            "module": 4,
+            "x": 13,
+            "y": 2
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "111000111",
+            "module": 4,
+            "x": 14,
+            "y": 2
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "100111111",
+            "module": 4,
+            "x": 12,
+            "y": 3
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000111111",
+            "module": 4,
+            "x": 13,
+            "y": 3
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000111110",
+            "module": 4,
+            "x": 14,
+            "y": 3
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "111000111",
+            "module": 5,
+            "x": 15,
+            "y": 2
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "111000111",
+            "module": 5,
+            "x": 16,
+            "y": 2
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "110000110",
+            "module": 5,
+            "x": 17,
+            "y": 2
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000111100",
+            "module": 5,
+            "x": 15,
+            "y": 3
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 5,
+            "x": 16,
+            "y": 3
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000110000",
+            "module": 5,
+            "x": 17,
+            "y": 3
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": true
+            },
+            "hAdj": "111111000",
+            "module": 6,
+            "x": 4,
+            "y": 4
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "111111000",
+            "module": 6,
+            "x": 5,
+            "y": 4
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "111111000",
+            "module": 6,
+            "x": 6,
+            "y": 4
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": true
+            },
+            "hAdj": "111111000",
+            "module": 7,
+            "x": 7,
+            "y": 4
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": true
+            },
+            "hAdj": "111111000",
+            "module": 7,
+            "x": 8,
+            "y": 4
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": true
+            },
+            "hAdj": "111111000",
+            "module": 7,
+            "x": 9,
+            "y": 4
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": true
+            },
+            "hAdj": "111111000",
+            "module": 8,
+            "x": 3,
+            "y": 4
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "111111000",
+            "module": 9,
+            "x": 10,
+            "y": 4
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "111111000",
+            "module": 9,
+            "x": 11,
+            "y": 4
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": true
+            },
+            "hAdj": "111111000",
+            "module": 9,
+            "x": 12,
+            "y": 4
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": true
+            },
+            "hAdj": "111111000",
+            "module": 10,
+            "x": 13,
+            "y": 4
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000000011",
+            "module": 11,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000000111",
+            "module": 11,
+            "x": 1,
+            "y": 0
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000000111",
+            "module": 11,
+            "x": 2,
+            "y": 0
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000011011",
+            "module": 11,
+            "x": 0,
+            "y": 1
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000111111",
+            "module": 11,
+            "x": 1,
+            "y": 1
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000111111",
+            "module": 11,
+            "x": 2,
+            "y": 1
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000000111",
+            "module": 12,
+            "x": 3,
+            "y": 0
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000000111",
+            "module": 12,
+            "x": 4,
+            "y": 0
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000000111",
+            "module": 12,
+            "x": 5,
+            "y": 0
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000111110",
+            "module": 12,
+            "x": 3,
+            "y": 1
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000111100",
+            "module": 12,
+            "x": 4,
+            "y": 1
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 12,
+            "x": 5,
+            "y": 1
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000000111",
+            "module": 13,
+            "x": 6,
+            "y": 0
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000000111",
+            "module": 13,
+            "x": 7,
+            "y": 0
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000000111",
+            "module": 13,
+            "x": 8,
+            "y": 0
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 13,
+            "x": 6,
+            "y": 1
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 13,
+            "x": 7,
+            "y": 1
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000111001",
+            "module": 13,
+            "x": 8,
+            "y": 1
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000000111",
+            "module": 14,
+            "x": 9,
+            "y": 0
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000000111",
+            "module": 14,
+            "x": 10,
+            "y": 0
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000000111",
+            "module": 14,
+            "x": 11,
+            "y": 0
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000111011",
+            "module": 14,
+            "x": 9,
+            "y": 1
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000111111",
+            "module": 14,
+            "x": 10,
+            "y": 1
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000111110",
+            "module": 14,
+            "x": 11,
+            "y": 1
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000000111",
+            "module": 15,
+            "x": 12,
+            "y": 0
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000000111",
+            "module": 15,
+            "x": 13,
+            "y": 0
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000000111",
+            "module": 15,
+            "x": 14,
+            "y": 0
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000111100",
+            "module": 15,
+            "x": 12,
+            "y": 1
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 15,
+            "x": 13,
+            "y": 1
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 15,
+            "x": 14,
+            "y": 1
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000000111",
+            "module": 16,
+            "x": 15,
+            "y": 0
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000000111",
+            "module": 16,
+            "x": 16,
+            "y": 0
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000000110",
+            "module": 16,
+            "x": 17,
+            "y": 0
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 16,
+            "x": 15,
+            "y": 1
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000111000",
+            "module": 16,
+            "x": 16,
+            "y": 1
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "000110000",
+            "module": 16,
+            "x": 17,
+            "y": 1
+        },
+        {
+            "armour": {
+                "hp": 90,
+                "paint": "PRUSSIAN_BLUE",
+                "type": "HV_STEEL_HEX",
+                "window": false
+            },
+            "hAdj": "011011001",
+            "module": 17,
+            "x": 0,
+            "y": 2
+        },
+        {
+            "armour": {
+                "hp": 50,
+                "type": "MED_STEEL_HIDDEN",
+                "window": false
+            },
+            "hAdj": "111011000",
+            "module": 18,
+            "x": 2,
+            "y": 4
+        },
+        {
+            "armour": {
+                "hp": 50,
+                "type": "MED_STEEL_HIDDEN",
+                "window": false
+            },
+            "hAdj": "111110000",
+            "module": 19,
+            "x": 14,
+            "y": 4
+        }
+    ],
+    "timeMovingInSameXDirection": 0,
+    "type": "AIRSHIP",
+    "unableToFlipMs": 0,
+    "usedMods": [],
+    "version": 76,
+    "w": 18,
+    "x": -144,
+    "xSpeed": 0,
+    "y": 32,
+    "ySpeed": 0
+}
